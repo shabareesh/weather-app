@@ -1,0 +1,17 @@
+.current-weather {
+  background: linear-gradient(#2d45a5,#458baf);
+  padding: 20px;
+  color: #fff;
+  max-width: 300px;
+  margin: 0 auto;
+
+  &--city {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  p {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrentWeather should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="current-weather"
+    >
+      <h4
+        class="current-weather--city"
+      >
+        Chicago
+         - 
+        1234
+        , 
+        US
+      </h4>
+      <p
+        class="current-weather--date"
+      >
+        undefined, undefined NaN, NaN
+      </p>
+      <p
+        class="current-weather--highTemp"
+      >
+        <strong>
+          H 
+          45.1
+          <sup>
+            o
+          </sup>
+        </strong>
+        <span>
+          / L 
+          45.1
+          <sup>
+            o
+          </sup>
+        </span>
+      </p>
+      <p
+        class="current-weather--description"
+      >
+        some desc
+      </p>
+    </div>
+  </div>
+</body>
+`;

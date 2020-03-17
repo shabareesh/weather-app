@@ -1,0 +1,45 @@
+.header {
+  background: #133467;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--title {
+    color: #fff;
+    margin: 0 20px 0 0;
+  }
+
+  .cities-dropdown {
+    width: 200px;
+  }
+}
+
+.weather-content {
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  padding-top: 50px;
+}
+
+.forecast-weather {
+  display: flex;
+  padding: 50px;
+
+  @media (max-width: 1000px) {
+    padding: 50px 10px;
+  }
+
+  @media (max-width: 770px) {
+    padding: 50px 10px 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @media (max-width: 500px) {
+    flex-flow: column;
+  }
+}
+
+.error {
+  text-align: center;
+}
+

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherCard should generate snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="weather-card"
+    >
+      <p
+        class="weather-card--date"
+      >
+        Tue, 3/17
+      </p>
+      <p
+        class="weather-card--temp"
+      >
+        <strong>
+          H 
+          13.1
+          <sup>
+            o
+          </sup>
+        </strong>
+        <br />
+        <span>
+          L 
+          1.1
+          <sup>
+            o
+          </sup>
+        </span>
+      </p>
+      <p
+        class="weather-card--description"
+      >
+        Partly Clouded
+      </p>
+    </div>
+  </div>
+</body>
+`;
